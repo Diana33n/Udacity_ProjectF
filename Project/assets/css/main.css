@@ -1,0 +1,22 @@
+@import url('layout.css');
+@import url('components.css');
+@import url('home.css');
+@import url('blog.css');
+
+/* Footer styling to ensure it stays at the bottom */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+/* Container for proper centering and max-width control */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 16px;
+}

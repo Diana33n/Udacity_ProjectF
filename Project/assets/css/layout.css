@@ -1,0 +1,41 @@
+/* Define base variables for color schemes */
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #333;
+    --link-color: #007bff;
+    --border-radius: 4px;
+}
+
+/* Improved blog post styling with variable usage */
+.blog-post h3 {
+    font-size: 1.25rem;
+    color: var(--primary-color);
+}
+
+.blog-post p {
+    line-height: 1.6;
+    color: var(--secondary-color);
+}
+
+.blog-post img {
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Card styling adjustments for better layout control */
+.card {
+    background-color: #f0f0f0;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: grid; /* Apply grid layout */
+}
+
+/* Further grid control within the cards for content alignment */
+.card img {
+    width: 100%; /* Full-width */
+    max-width: 300px; /* Maximum width for better control */
+    margin: auto; /* Center align the image */
+    height: auto;
+    border-radius: var(--border-radius);
+}
